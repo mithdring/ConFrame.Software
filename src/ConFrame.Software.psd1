@@ -73,6 +73,7 @@ NestedModules = @(
     'Install-Software.psm1'
     'New-Software.psm1'
     'Test-Software.psm1'
+    'Uninstall-Software.psm1'
 )
 
 # Functions to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no functions to export.
@@ -80,6 +81,7 @@ FunctionsToExport = @(
     'Install-Software'
     'New-Software'
     'Test-Software'
+    'Uninstall-Software'
 )
 
 # Cmdlets to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no cmdlets to export.
