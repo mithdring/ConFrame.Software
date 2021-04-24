@@ -71,11 +71,13 @@ NestedModules = @(
     'Software.psm1'
 
     'New-Software.psm1'
+    'Test-Software.psm1'
 )
 
 # Functions to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no functions to export.
 FunctionsToExport = @(
     'New-Software'
+    'Test-Software'
 )
 
 # Cmdlets to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no cmdlets to export.
